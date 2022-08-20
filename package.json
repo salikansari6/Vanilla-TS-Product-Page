@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-product-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run tsc:watch\" \"npm run sass:watch\"",
+    "tsc:watch": "tsc --watch",
+    "sass:watch": "sass --watch src/sass:./dist/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "sass": "^1.54.5",
+    "typescript": "^4.7.4"
+  }
+}

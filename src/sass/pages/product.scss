@@ -1,0 +1,16 @@
+.product {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+
+  &__left {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  &__info {
+    flex: 1;
+  }
+}

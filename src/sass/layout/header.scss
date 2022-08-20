@@ -1,0 +1,30 @@
+@import "../abstracts/variables.scss";
+
+.header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 20px 40px;
+  border-bottom: 1px solid $light-grayish-blue;
+
+  &__left {
+    display: flex;
+    align-items: center;
+
+    &__nav {
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 24px;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+}

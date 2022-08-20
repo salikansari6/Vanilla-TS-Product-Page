@@ -1,0 +1,13 @@
+@import "./layout/header.scss";
+@import "./components/gallery.scss";
+@import "./pages/product.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
